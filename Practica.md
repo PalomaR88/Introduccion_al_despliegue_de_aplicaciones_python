@@ -211,3 +211,8 @@ Se cambia el valor **DEBUG = TRUE** por **DEBUG = FALSE** en setting.py.
 ![admin](gimg.png)
 ![admin](himg.png)
 
+
+> Para que se muestra la hoja de estilo, que se encuentra en Django y Apache no lo encuentra en principio, hay que añadir un alias en el .conf
+~~~
+Alias "/static/admin/" "/usr/local/lib/python3.7/dist-packages/django/contrib/admin/static/admin/"
+~~~
