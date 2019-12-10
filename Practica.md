@@ -82,19 +82,19 @@ Quit the server with CONTROL-C.
 ~~~
 
 En la dirección se se indica aparecerá la ip corespndiente en la dirección admin/. Hay que logearse con el usuario que se ha creado anteriormente para ver que ha funcionado correctamente.
-![admin](aimg.png)
-![admin](bimg.png)
+![admin](images/aimg.png)
+![admin](images/bimg.png)
 
 
 - Crea dos preguntas, con posibles respuestas.
 
 En la aplicación se selecciona añadir Questions y se rellenan los datos correspondientes para agregar las preguntas:
-![admin](cimg.png)
-![admin](dimg.png)
+![admin](images/cimg.png)
+![admin](images/dimg.png)
 
 
 - Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.
-![admin](eimg.png)
+![admin](images/eimg.png)
 
 
 
@@ -174,7 +174,7 @@ Se inicia Apache:
 ~~~
 debian@appython:/var/www/html/django_tutorial$ sudo systemctl restart apache2.service 
 ~~~
-![admin](fimg.png)
+![admin](images/fimg.png)
 
 
 - Crea la base de datos.
@@ -205,11 +205,11 @@ Superuser created successfully.
 - Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.
 
 Se cambia el valor **DEBUG = TRUE** por **DEBUG = FALSE** en setting.py.
-![admin](iimg.png)
+![admin](images/iimg.png)
 
 - Muestra la página funcionando.
-![admin](gimg.png)
-![admin](himg.png)
+![admin](images/gimg.png)
+![admin](images/himg.png)
 
 
 > Para que se muestra la hoja de estilo, que se encuentra en Django y Apache no lo encuentra en principio, hay que añadir un alias en el .conf
